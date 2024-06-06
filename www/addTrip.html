@@ -1,0 +1,55 @@
+<div class="has-header page">
+    <div class="header blue-900">
+        <div class="left">
+            <button id="btn-list-trip" class="icon ion-chevron-left"></button>
+        </div>
+        <h1>Trips</h1>
+        <div class="right">
+            <button id="btn-take-pic" class="icon ion-camera"></button>
+            <button id="btn-form-save" class="icon ion-checkmark-circled"></button>
+        </div>
+    </div>
+    <div class="padding">
+        <div class="listTrip">
+        <div class="item mb-3">
+            <label class="text-blue-900">Name of Trip:</label>
+            <input type="text" id="tripName" placeholder="e.g. conference, client meeting" required>
+        </div>
+        <div class="item mb-3">
+            <label class="text-blue-900">Destination:</label>
+            <input type="text" id="tripDestination" placeholder="Enter destination" required>
+        </div>
+        <div class="item mb-3">
+            <label class="text-blue-900">Start Date of Trip:</label>
+            <input type="date" id="tripStartDate" required pattern="\d{2}/\d{2}/\d{4}">
+        </div>
+        <div class="item mb-3">
+            <label class="text-blue-900">End Date of Trip:</label>
+            <input type="date" id="tripEndDate" required>
+        </div>
+        <div class="item mb-3">
+            <label class="text-blue-900">Risk Assessment:</label>
+            <select id="tripRiskAss" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="item mb-3">
+            <label class="text-blue-900">Contact Number:</label>
+            <input type="tel" id="tripContact" placeholder="Enter contact number" required>
+        </div>
+        <div class="item mb-3">
+            <label class="text-blue-900">Mode of Transportation:</label>
+            <input type="text" id="tripTransport" placeholder="e.g. flight, train, car" required>
+        </div>
+        <div class="item mb-3">
+            <label class="text-blue-900">Description:</label>
+            <input type="text" id="tripDescription">
+        </div>
+        <hr>
+        <input type="hidden" id="expensePhoto" name="expensePhoto" accept="image/*" class="form-control-file" required>
+            <img id="pictureList" style="display: none; max-width: 100%; height: auto;">
+    </div>
+</div>
+</div>
+  

@@ -1,0 +1,24 @@
+POST https://bcomp3402.porky.lol/ HTTP/1.1
+content-type: application/json
+
+{
+    "jsonpayload":{
+        "userId": "001195214", 
+        "detailList": [
+            {
+                "name": "Bus Ticket to KL",
+                "data":
+                {
+                    "date": "2024-03-12",
+                    "desc": "Flight Ticket",
+                    "amount": "1234.56",
+                    "currency": "USD"
+                }
+            }    
+         ]
+    }
+}
+
+###
+
+// New POST
